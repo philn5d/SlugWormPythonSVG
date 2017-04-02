@@ -1,0 +1,482 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"map",
+				"mapCoords"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"view",
+				"viewBox"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"my",
+				"myPolyLine"
+			],
+			[
+				"ci",
+				"circle"
+			],
+			[
+				"ov",
+				"_overlay"
+			],
+			[
+				"game",
+				"gameArea"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"_gameIn",
+				"_gameInfo"
+			],
+			[
+				"spe",
+				"speed"
+			],
+			[
+				"spee",
+				"speed"
+			],
+			[
+				"_gam",
+				"_gameInterval"
+			],
+			[
+				"_rem",
+				"_removeMissile"
+			],
+			[
+				"start",
+				"startGame"
+			],
+			[
+				"_add",
+				"_addGhostInterval"
+			],
+			[
+				"e",
+				"edges"
+			],
+			[
+				"a",
+				"addGhost"
+			],
+			[
+				"Game",
+				"GamePiece"
+			],
+			[
+				"add",
+				"addPiece"
+			],
+			[
+				"ge",
+				"getHandler"
+			],
+			[
+				"han",
+				"handler"
+			],
+			[
+				"ha",
+				"handler"
+			],
+			[
+				"ke",
+				"key"
+			],
+			[
+				"Sp",
+				"speedY"
+			],
+			[
+				"_ma",
+				"_myGamePiece"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"sp",
+				"speedX"
+			],
+			[
+				"_myG",
+				"_myGameArea"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Elm Language Support/Build Systems/Elm Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Elm Language Support/Build Systems/Elm Make.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Elm Language Support/Build Systems/Elm Make.sublime-build",
+					"Ignore Warnings"
+				],
+				[
+					"Packages/Elm Language Support/Build Systems/Elm Make.sublime-build",
+					"Run - Ignore Warnings"
+				]
+			],
+			[
+				"Packages/Elm Language Support/Build Systems/Elm Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "set JSON",
+		"selected_items":
+		[
+			[
+				"set JSON",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"JS",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: sea",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"set xml",
+				"Set Syntax: XML"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Dev/GitRepos/SlugWormPythonSVG"
+	],
+	"file_history":
+	[
+		"/C/Dev/GitRepos/SlugWormPythonSVG/.git/config",
+		"/C/Dev/Postman/Collections/Kinda_messy_NextRadio_API_prod.postman_collection.json",
+		"/C/Dev/Postman/Collections/Caching Group ext current event.postman_collection.json",
+		"/C/Dev/Postman/Collections/Data Partner API.postman_collection.json",
+		"/C/Dev/Postman/Collections/Newsfeed.postman_collection.json",
+		"/C/Users/Pvuollet/Documents/TagStation/Projects/AgentAdminCampaign/Issues/1875 - app chokes/agent.tagstation.local-1490281333124.log",
+		"/C/Users/Pvuollet/Documents/TagStation/Projects/AgentAdminCampaign/Issues/1875 - app chokes/agent.tagstation.local-1490281895475.log",
+		"/C/Users/Pvuollet/Documents/Data Partner API.postman_collection.json",
+		"/C/Users/Pvuollet/AppData/Local/Google/Chrome/User Data/Default/Extensions/fhbjgbiflinjbdggehcddcbncdddomop/4.10.5_0/js/runner.js",
+		"/C/Users/Pvuollet/AppData/Local/Google/Chrome/User Data/chrome_debug.log",
+		"/C/Users/Pvuollet/Documents/Dev/Elm/elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm",
+		"/C/Users/Pvuollet/Documents/Dev/Elm/src/first.elm",
+		"/C/Windows/Microsoft.NET/Framework/v4.0.30319/Config/web.config",
+		"/C/Source/Repos/tagstationadmin/changes.log",
+		"/C/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/PrivateAssemblies/ScriptedSandbox.t.html",
+		"/C/Windows/Microsoft.NET/Framework/v4.0.30319/Config/machine.config",
+		"/C/Users/Pvuollet/Documents/Dev/Elm/elm-package.json",
+		"/C/Users/Pvuollet/Documents/Dev/Elm/first.elm",
+		"/C/Users/Pvuollet/Documents/Dev/Elm/first.sublime-project",
+		"/C/Users/Pvuollet/Documents/Dev/js/firstGame.js",
+		"/C/Users/Pvuollet/Documents/Dev/js/firstGame.html",
+		"/C/Users/Pvuollet/Documents/Elm/first.elm",
+		"/C/ProgramData/MySQL/MySQL Server 5.6/my.ini",
+		"/C/ProgramData/MySQL/MySQL Server 5.6/data/TAGSTAT17.log",
+		"/C/ProgramData/MySQL/MySQL Server 5.6/my.bak.ini",
+		"/C/ProgramData/MySQL/MySQL Server 5.6/data/ib_logfile1",
+		"/C/ProgramData/MySQL/MySQL Server 5.6/data/ib_logfile0",
+		"/C/ProgramData/MySQL/MySQL Server 5.6/data/TAGSTAT17.pid",
+		"/C/ProgramData/MySQL/MySQL Server 5.6/data/TAGSTAT17.err",
+		"/C/ProgramData/MySQL/MySQL Server 5.6/data/TAGSTAT17-slow.log",
+		"/C/Users/Pvuollet/Dev.bscp",
+		"/C/Source/Repos/tagstationadmin/.git/hooks/post-merge",
+		"/C/Source/Repos/tagstationadmin/Lib/ConfigurationFiles/AppSettings/AppSettings.Local.config",
+		"/C/Users/Pvuollet/.ssh/config",
+		"/C/Users/Pvuollet/.ssh/id_rsa.pub",
+		"/C/Source/Repos/tagstationadmin/.git/config",
+		"/C/Source/Repos/tagstationadmin/.git/description",
+		"/C/Users/Pvuollet/AppData/Local/Temp/ExchangePerflog_8484fa31bf598d3ecfcccd43.dat",
+		"/C/Users/Pvuollet/AppData/Local/Temp/etilqs_R1hHWrTbhhqUNwu",
+		"/C/Users/Pvuollet/AppData/Local/Temp/Visual Studio Web Debugger.log",
+		"/C/Users/Pvuollet/AppData/Local/Temp/~DFDBC8F7A5E2CEACBC.TMP",
+		"/C/Users/Pvuollet/AppData/Local/Temp/CVR7676.tmp.cvr",
+		"/C/Users/Pvuollet/AppData/Local/Temp/jusched.log",
+		"/C/Users/Pvuollet/Documents/TagStation/PRojects/Veritone/Results/MQ_Only_Results_2017_01_06.tmp",
+		"/C/Dev/GitRepos/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/BenchmarkDotNet.Artifacts/Algo_BitCount.log",
+		"/C/Source/Repos/tagstationadmin/Source/TagStation/TagStationAPI.Benchmarkie/App.config",
+		"/C/Users/Pvuollet/Documents/Visual Studio 2015/Projects/TagStation.Veritone.TestClient/TagStation.Veritone.TestClient/TagStation.Veritone.TestClient.csproj",
+		"/C/Users/Pvuollet/Documents/visual studio 2015/Projects/TagStation.Veritone.TestClient/TagStation.MessageQueue/TagStation.MessageQueue.csproj",
+		"/C/Users/Pvuollet/Documents/visual studio 2015/Projects/TagStation.Veritone.TestClient/TagStation.Veritone.TestClient.sln",
+		"/C/Users/Pvuollet/Documents/visual studio 2015/Projects/TagStation.RabbitMQ/TagStation.RabbitMQ.csproj",
+		"/C/Windows/Microsoft.NET/Framework/v4.0.30319/Microsoft.CSharp.targets",
+		"/C/Dev/Fixtures/TagStationAdminAlmighty/bin/TagStationAdminAlmightyTestFixtures.dll.config",
+		"/C/inetpub/history/CFGHISTORY_0000000028/applicationHost.config",
+		"/C/inetpub/history/CFGHISTORY_0000000028/administration.config",
+		"/C/Dev/Fixtures/TagStationAdminAlmighty/bin/i18n.pdb",
+		"/C/Source/Repos/tagstationadmin/Source/TagStation/packages/EnyimMemcached.2.16.0/_rels/.rels",
+		"/C/Source/Repos/tagstationadmin/Source/TagStation/packages/EnyimMemcached.2.16.0/EnyimMemcached.nuspec",
+		"/C/Source/Repos/tagstationadmin/Source/TagStation/packages/EnyimMemcached.2.16.0/package/services/metadata/core-properties/12e1fbc7ea3d45b7acce0abd3a4742f0.psmdcp",
+		"/C/Source/Repos/tagstationadmin/Source/TagStation/packages/EnyimMemcached.2.16.0/EnyimMemcached.2.16.0.nupkg",
+		"/C/Dev/FitSharp/Runner.exe.config",
+		"/C/Source/Repos/tagstationadmin/.git/hooks/pre-rebase",
+		"/C/Users/Pvuollet/Source/Repos/tagstationadmin/.git/description",
+		"/C/Users/Pvuollet/Source/Repos/tagstationadmin/.git/config",
+		"/C/Users/Pvuollet/.gitconfig",
+		"/C/Source/Repos/tagstationadmin/.git/index",
+		"/C/Source/Repos/tagstationadmin/.git/objects/pack/pack-4158501da5ced7b5331ec205a0ea39055dc8c580.pack",
+		"/C/Source/Repos/tagstationadmin/.git/objects/1e/3a8cd30ae8aa5e0fc522640b05a747382ed348",
+		"/C/Source/Repos/tagstationadmin/.git/logs/refs/remotes/origin/HEAD",
+		"/C/Source/Repos/tagstationadmin/.git/logs/refs/remotes/origin/development",
+		"/C/Source/Repos/tagstationadmin/.git/logs/HEAD",
+		"/C/Source/Repos/tagstationadmin/.git/hooks/post-update.sample",
+		"/C/Source/Repos/tagstationadmin/tagstationdb/Schema/inventory/Install.xml",
+		"/C/Program Files (x86)/Liquibase/liquibase.bat",
+		"/C/Program Files (x86)/Liquibase/liquibase",
+		"/C/Source/Repos/tagstationadmin/tagstationdb/Install_inventory.cmd"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"request",
+			"api.tagstation.local",
+			"dev-api.tagstation",
+			"tagstation.com",
+			"api-partner.tagstation",
+			"dev-api.tagstation",
+			"tagstation.com",
+			"dev-api.tagstation",
+			");",
+			"\")",
+			"\"),",
+			"map.get(\"",
+			"[\"c78\", \"c112\", \"c128\"]",
+			"SellerAgencies",
+			"case 3:",
+			"forms",
+			"machinekey",
+			"machine",
+			"forms",
+			"authentication",
+			"isCrash",
+			"_myGameArea",
+			"updateGameArea",
+			"log=",
+			"general_log",
+			"}(?!,)",
+			"\\n(?!{)",
+			"\\n",
+			"\\b\\n",
+			"\\b",
+			"\n",
+			"`",
+			"v_RadioEventID",
+			"tblCampaigns",
+			"\\n",
+			"    ",
+			"\\t",
+			"element-only",
+			"children"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{{apiUrl}}",
+			"api.tagstation",
+			"tagstation.local",
+			"api.tagstation",
+			"tagstation.local",
+			"api.tagstation",
+			"",
+			"_gameArea",
+			"},",
+			",",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.elm_type":
+	{
+		"height": 118.0
+	},
+	"output.exec":
+	{
+		"height": 262.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Elm Language Support/Build Systems/Elm Make.sublime-build",
+	"project": "SlugWormPythonSVG.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Pvuollet\\Documents\\Dev\\Elm\\first.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
