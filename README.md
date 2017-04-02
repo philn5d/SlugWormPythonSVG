@@ -1,2 +1,2 @@
-# SlugWormPythonSVG
-Classic Slugworm Python written in SVG
+# SlugWormPython Clone
+Classic Slugworm Python using a Canvas
