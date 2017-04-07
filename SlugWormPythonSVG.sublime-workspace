@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getPosition"
+			],
+			[
+				"x",
+				"xRight"
+			],
+			[
+				"food",
+				"foodPos"
+			],
+			[
+				"slo",
+				"slugWorm"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
 				"map",
 				"mapCoords"
 			],
@@ -123,6 +143,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "game.js",
+			"settings":
+			{
+				"buffer_size": 2707,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gamePage.html",
+			"settings":
+			{
+				"buffer_size": 323,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -220,6 +257,8 @@
 	],
 	"file_history":
 	[
+		"/C/Dev/GitRepos/SlugWormPythonSVG/README.md",
+		"/C/Dev/GitRepos/SlugWormPythonSVG/gamePage.html",
 		"/C/Dev/GitRepos/SlugWormPythonSVG/.git/config",
 		"/C/Dev/Postman/Collections/Kinda_messy_NextRadio_API_prod.postman_collection.json",
 		"/C/Dev/Postman/Collections/Caching Group ext current event.postman_collection.json",
@@ -380,8 +419,65 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "game.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1646,
+								1646
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 701.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gamePage.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -473,8 +569,8 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 150.0,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
