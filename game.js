@@ -3,8 +3,9 @@ document.body.onload = startGame;
 
 var slugWorm = {
 	blocks: [],
-    speed: 0.74, 
+    speed: 10, 
     direction: "right",
+    lastBlockDirection: "right",
     addBlocks: function addBlocks(howMany){
 	    for (var i = 0; i < howMany; i++) {
 	    	this.blocks.push(new Block(10, "black", 10 + (10 * i), 120));
@@ -17,7 +18,8 @@ var slugWorm = {
 	},
 	move: function move(){
 		for(var i in this.blocks){
-			this.blocks[i].move(this.speed * 10, this.direction);
+			this.blocks[i].move(this.speed, this.direction);
+            //this.lastBlockDirection = this.blocks[i].direction;
 		}
 	},
     eatFood: function eatFood(){
@@ -55,7 +57,7 @@ var myGameArea = {
     },
     food: null,
     wormEatsFood: function(){
-    	food = null;
+    	this.food = null;
     }
 }
 
@@ -63,7 +65,7 @@ var myGameArea = {
 function startGame() {
     document.addEventListener("keydown", updateDirection);
 	slugWorm.addBlocks(9);
-	addFood();
+	addFood(800, 120);
     myGameArea.start();
 }
 
@@ -108,8 +110,8 @@ function willSlugWormEatTheFood(slugWorm, food){
 	return false;
 }
 
-function addFood(){
-	if(!myGameArea.food) myGameArea.food = new Block(10, "red", 800, 120);
+function addFood(x, y){
+	if(!myGameArea.food) myGameArea.food = new Block(10, "red", x, y);
 }
 
 function Block(size, color, x, y) {
