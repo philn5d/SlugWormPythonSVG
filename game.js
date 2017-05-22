@@ -3,14 +3,21 @@ document.body.onload = startGame;
 
 var slugWorm = {
 	blocks: [],
-    speed: 10, 
+    speed: 5, 
     direction: "right",
     lastBlockDirection: "right",
     addBlocks: function addBlocks(howMany){
-	    for (var i = 0; i < howMany; i++) {
-	    	this.blocks.push(new Block(10, "black", 10 + (10 * i), 120));
-	    }
+        var lastBlock = this.getLastBlock();
+        var newBlockX = lastBlock ? (lastBlock.x - lastBlock.width) : 10;
+        var newBlockY = lastBlock ? (lastBlock.y) : 100;
+
+        var newBlock = new Block(10, "black", newBlockX, newBlockY);
+    	this.blocks.push(newBlock);
+        if(--howMany > 0) this.addBlocks(howMany);
 	},
+    getLastBlock: function getLastBlock(){
+        return this.blocks[this.blocks.length-1];
+    },
 	update: function update(){
 		for(var i in this.blocks){
 			this.blocks[i].update();
@@ -27,17 +34,23 @@ var slugWorm = {
 	},
     getPosition: function getPosition(){
     	var xLeft = 0, 
-    		xRight = 0;
+    		xRight = 0,
+            top = 0,
+            bottom = 0;
 
     	for (var i in this.blocks) {
     		var pos = this.blocks[i].getPosition();
     		xLeft = pos.xLeft;
     		xRight = pos.xRight;
+            top = pos.top;
+            bottom = pos.bottom;
     	}
 
     	return {
     		xLeft: xLeft,
     		xRight: xRight,
+            top: top,
+            bottom: bottom
     	};
     }
 };
@@ -75,19 +88,6 @@ function updateDirection(event){
     slugWorm.direction = getDirectionFromKeyCode(x);
 }
 
-function getDirectionFromKeyCode(x){
-    switch(x)
-    {
-        case 37:
-            return "left";
-        case 38:
-            return "up";
-        case 39:
-            return "right";
-        case 40:
-            return "down";    
-    }
-}
 
 function updateGameArea() {
     myGameArea.clear();
@@ -98,7 +98,6 @@ function updateGameArea() {
     if(willSlugWormEatTheFood(slugWorm, myGameArea.food)){
     	myGameArea.wormEatsFood();
     	slugWorm.eatFood();
-        alert("eaten!");
     }
 }
 
@@ -106,8 +105,15 @@ function willSlugWormEatTheFood(slugWorm, food){
 	if(!food) return false;
 	var foodPos = food.getPosition();
 	var wormPos = slugWorm.getPosition();
-	if(wormPos.xRight >= foodPos.xLeft && wormPos.xRight <= foodPos.xRight) return true;
-	return false;
+	return (
+        (wormPos.xRight >= foodPos.xLeft && wormPos.xRight <= foodPos.xRight)
+        &&
+        (
+            (wormPos.top <= foodPos.top && wormPos.top >= foodPos.bottom)
+            ||
+            (wormPos.bottom <= foodPos.top && wormPos.bottom >= foodPos.bottom)
+        )
+    )
 }
 
 function addFood(x, y){
@@ -152,6 +158,22 @@ function Component(width, height, color, x, y) {
     	return {
     		xLeft: this.x,
     		xRight: this.x + this.width,
+            top: this.y + this.height,
+            bottom: this.y
     	};
+    }
+}
+
+function getDirectionFromKeyCode(x){
+    switch(x)
+    {
+        case 37:
+            return "left";
+        case 38:
+            return "up";
+        case 39:
+            return "right";
+        case 40:
+            return "down";    
     }
 }

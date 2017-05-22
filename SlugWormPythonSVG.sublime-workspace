@@ -151,34 +151,8 @@
 			"file": "game.js",
 			"settings":
 			{
-				"buffer_size": 3552,
+				"buffer_size": 3657,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "    \"currentEvent\": {\n      \"title\": \"I Won't Let You Down\",\n      \"artist\": \"Ok Go\",\n      \"imageUrl\": \"http://dev-static.tagstation.com/gaa.ashx?productID=3CD3N62Q466949257U508F23A6C91F1894B2792F5C6D42FF9261BP6\",\n\"timePlayed\": \"2017-04-12T12:48:51\",\n      \"album\": \"Hungry Ghosts\",\n      \"primaryAction\": \"none\",\n\"teId\": \"11078395\",\n      \"ufId\": \"M14444035\",\n      \"trackingId\": \"5525100\",\n      \"itemType\": 1,\n      \"category\": \"Song\",\n      \"imageUrlHd\": \"http://dev-static.tagstation.com/gaa.ashx?productID=3CD3N62Q466949257U508F23A6C91F1894B2792F5C6D42FF9261BP6&imagesize=medium\",\n      \"lookupArtist\": \"TODO: include lookup artist\",\n      \"lookupTitle\": \"TODO: include lookup title\",\n      \"ctas\": [],\n      \"additionalContent\": []\n    },\n\n\n    \"currentEvent\": {\n      \"title\": \"I Won't Let You Down\",\n      \"artist\": \"Ok Go\",\n      \"imageUrl\": \"http://dev-static.tagstation.com/gaa.ashx?productID=3CD3N62Q466949257U508F23A6C91F1894B2792F5C6D42FF9261BP6\",\n\"timePlayed\": \"0001-01-01T00:00:00\",\n      \"album\": \"Hungry Ghosts\",\n      \"primaryAction\": \"none\",\n      \"teId\": \"\",\n      \"ufId\": \"M14444035\",\n      \"trackingId\": \"5525100\",\n      \"itemType\": 1,\n      \"category\": \"Song\",\n      \"imageUrlHd\": \"http://dev-static.tagstation.com/gaa.ashx?productID=3CD3N62Q466949257U508F23A6C91F1894B2792F5C6D42FF9261BP6&imagesize=medium\",\n      \"lookupArtist\": \"TODO: include lookup artist\",\n      \"lookupTitle\": \"TODO: include lookup title\",\n      \"ctas\": [],\n      \"additionalContent\": []\n    },",
-			"settings":
-			{
-				"buffer_size": 1493,
-				"line_ending": "Windows",
-				"name": "\"currentEvent\": {"
-			}
-		},
-		{
-			"file": "/C/Users/Pvuollet/Documents/TagStation/Tests/PostmanRunner.ApiV2.json",
-			"settings":
-			{
-				"buffer_size": 194,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "gamePage.html",
-			"settings":
-			{
-				"buffer_size": 323,
 				"line_ending": "Windows"
 			}
 		}
@@ -279,10 +253,12 @@
 	],
 	"file_history":
 	[
+		"/C/Dev/GitRepos/SlugWormPythonSVG/gamePage.html",
+		"/C/Dev/GitRepos/SlugWormPythonSVG/game.js",
+		"/C/Users/Pvuollet/Documents/TagStation/Tests/PostmanRunner.ApiV2.json",
 		"/C/Users/Pvuollet/Documents/visual studio 2015/Projects/i18n.DemoIssue/locale/messages.pot",
 		"/C/Users/Pvuollet/Documents/visual studio 2015/Projects/i18n.DemoIssue/locale/es/messages.po",
 		"/C/Dev/GitRepos/SlugWormPythonSVG/README.md",
-		"/C/Dev/GitRepos/SlugWormPythonSVG/gamePage.html",
 		"/C/Dev/GitRepos/SlugWormPythonSVG/.git/config",
 		"/C/Dev/Postman/Collections/Kinda_messy_NextRadio_API_prod.postman_collection.json",
 		"/C/Dev/Postman/Collections/Caching Group ext current event.postman_collection.json",
@@ -377,6 +353,8 @@
 		"find_history":
 		[
 			"move",
+			"addfood",
+			"move",
 			"request",
 			"api.tagstation.local",
 			"dev-api.tagstation",
@@ -444,7 +422,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -453,15 +431,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3552,
+						"buffer_size": 3657,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								581,
-								581
+								887,
+								887
 							]
 						],
 						"settings":
@@ -474,93 +452,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1493,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								588,
-								588
-							]
-						],
-						"settings":
-						{
-							"auto_name": "\"currentEvent\": {",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Pvuollet/Documents/TagStation/Tests/PostmanRunner.ApiV2.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								165,
-								165
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "gamePage.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 323,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								323,
-								323
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
